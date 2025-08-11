@@ -23,7 +23,7 @@ ds-token-gen
 # 反向代理设置
 容器监听'/generate-token'网址进行Token生成
 
-反向代理样例
+反向代理样例，添加至OnlyOffice网站的反向代理Nginx文件配置中
 ```conf
   location /generate-token {
     # 假设你的 Node.js 服务运行在 192.168.31.200 的 3000 端口
