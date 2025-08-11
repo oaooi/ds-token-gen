@@ -31,4 +31,4 @@ ds-token-gen
   }
 ```
 
-具体集成文章可前往[https://blog.pica.icu:4443/2025/08/527/](https://blog.pica.icu:4443/2025/08/527/)
+具体集成文章可前往[https://github.com/zhaxingyu/olist-onlyoffice-preview](https://github.com/zhaxingyu/olist-onlyoffice-preview)
