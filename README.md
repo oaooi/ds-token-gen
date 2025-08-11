@@ -10,18 +10,13 @@ docker build -t ds-token-gen .
 
 # 部署服务
 ```bash
-docker run
-  -d
-  --name='ds-token-gen'
-  --net='bridge'
-  --pids-limit 2048
-  -e TZ="Asia/Shanghai"
-  -e HOST_OS="Unraid"
-  -e HOST_HOSTNAME="Tower"
-  -e HOST_CONTAINERNAME="ds-token-gen"
-  -e 'ONLYOFFICE_SECRET'='<你的OnlyOffice密码>'
-  -l net.unraid.docker.managed=dockerman
-  -p '3000:3000/tcp' 'ds-token-gen'
+docker run -d \
+--name ds-token-gen \
+-p 3000:3000 \
+-e TZ="Asia/Shanghai" \
+-e ONLYOFFICE_SECRET="<你的OnlyOffice密码>" \
+--restart always \
+ds-token-gen
 ```
 容器内暴露`3000`端口为Token认证接口，请将'ONLYOFFICE_SECRET'变量设置为OnlyOffice密钥
 
