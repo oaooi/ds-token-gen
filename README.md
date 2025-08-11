@@ -30,3 +30,5 @@ ds-token-gen
     proxy_pass http://192.168.31.200:3000;
   }
 ```
+
+具体集成文章可前往[https://blog.pica.icu:4443/2025/08/527/](https://blog.pica.icu:4443/2025/08/527/)
