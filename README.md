@@ -3,7 +3,7 @@ Alist/OpenList与OnlyOffice预览密钥认证后端
 
 # 构建镜像
 ```bash
-git clone https://github.com/zhaxingyu/ds-token-gen.git
+git clone https://github.com/oaooi/ds-token-gen.git
 cd ds-token-gen
 docker build -t ds-token-gen .
 ```
