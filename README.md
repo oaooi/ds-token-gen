@@ -31,4 +31,4 @@ ds-token-gen
   }
 ```
 
-具体集成文章可前往[https://github.com/zhaxingyu/olist-onlyoffice-preview](https://github.com/zhaxingyu/olist-onlyoffice-preview)
+具体集成文章可前往[https://github.com/oaooi/olist-onlyoffice-preview](https://github.com/zhaxingyu/olist-onlyoffice-preview)
